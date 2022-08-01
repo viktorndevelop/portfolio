@@ -1,0 +1,125 @@
+body {
+    padding-top: 50px;
+    margin: 0 auto;
+    font-size: 18px;
+    /*
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(34, 34, 34);
+    width: 1280px;
+    height: max-content;
+}
+
+.block_left {
+    width: min-content;
+    height: 340px;
+    margin: 10px 10px;
+    float: left;
+}
+
+/* comment */
+
+.img_logo {
+    width: 250px;
+    height: 300px;
+    float: left;
+    border: 1px solid #333;
+}
+
+.name_resume {
+    width: max-content;
+    height: auto;
+    margin: 0 auto;
+}
+
+.block_right {
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 50px;
+    width: max-content;
+    height: 340px;
+    float: right;
+}
+
+/* list_menu block */
+.list_menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.list_menu ul li {
+    text-align: justify;
+    float: left;
+    padding: 10px;
+}
+
+/* content block */
+
+.content {
+    float: left;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 25px auto;
+}
+
+/* a* p* h1* span ol */
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(34, 34, 34);
+}
+
+h1 {
+    font-family: Arial, Helvetica, Times New Roman, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, Times New Roman, Verdana, sans-serif;
+    font-style: italic;
+}
+
+p {
+    padding-left: 10px;
+    font-family: Monotype Corsiva, Verdana;
+}
+
+ol {
+    margin: 10;
+}
+
+span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.a_facebook {
+    color: blue;
+    text-decoration: none;
+}
+
+.li_github a {
+    width: min-content;
+    height: auto;
+    color: rgb(14, 9, 7);
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 1px solid green;
+}
+
+.img_github {
+    float: left;
+    padding: 2px;
+    border: 1px solid red;
+}
+
+li {
+    list-style: none;
+}
+
+/* about_content */
+.about_content {
+    margin: 50px auto;
+}
